@@ -1,0 +1,62 @@
+/* Copyright (c) 2015 David J. Powell */
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100%;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.17em;
+}
+
+h4 {
+  font-size: 1em;
+}
+
+h5 {
+  font-size: .894em;
+}
+
+h6 {
+  font-size: .816em;
+}
+
+img {
+  float: left;
+  margin-right: 3em;
+}
+
+header h1 {
+  color: orange;
+  font-style: italic;
+  text-shadow: 2px 2px black;
+}
+
+#first-heading::first-letter {
+  font-size: 200%;
+}
+
+a {
+  color: orange;
+  font-weight: bold;
+}
+
+a:hover {
+  color: green;
+}
+
+li {
+  margin-bottom: .3em;
+}
+
+footer {
+  text-align: center;
+  font-size: 90%;
+}

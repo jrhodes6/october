@@ -4,6 +4,11 @@ html {
   font-size: 100%;
 }
 
+header img {
+  float: left;
+  margin-right: 2.2em;
+}
+
 h1 {
   font-size: 2em;
 }
@@ -14,23 +19,6 @@ h2 {
 
 h3 {
   font-size: 1.17em;
-}
-
-h4 {
-  font-size: 1em;
-}
-
-h5 {
-  font-size: .894em;
-}
-
-h6 {
-  font-size: .816em;
-}
-
-img {
-  float: left;
-  margin-right: 3em;
 }
 
 header h1 {
@@ -48,7 +36,8 @@ a {
   font-weight: bold;
 }
 
-a:hover {
+a:hover,
+a:focus {
   color: green;
 }
 
@@ -56,7 +45,7 @@ li {
   margin-bottom: .3em;
 }
 
-footer {
+footer p {
   text-align: center;
   font-size: 90%;
 }
